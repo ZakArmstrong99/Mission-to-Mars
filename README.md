@@ -1,1 +1,2 @@
 # Mission-to-Mars
+The purpose of this project was to create a web app using flask that web scrapes different websites using splinter, which then is stored in a MongoDB database. When the button "Scrape new data" on the web app is pressed, the python code scrapes all the data and puts it into mongo. From mongo, the flask app is able to get the data and format it into an html to make the web app presentable.
